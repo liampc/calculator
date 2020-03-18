@@ -3,13 +3,13 @@
     height: 80vh;
     margin: 10vh auto;
     background: gray;
-    display: block;
+    display: grid;
+    grid-template-rows: 1fr 6fr;
 }
 
-#typeBox {
+input {
     width: 100%;
-    height: 100%;
-    margin: 
+    height: 98%;
 }
 
 #btnsDiv {
