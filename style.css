@@ -1,3 +1,14 @@
+#displays {
+    border: solid black 1px;
+}
+
+#answerBox, #equationsBox {
+    background-color: white;
+    height: 50%;
+
+}
+
+
 #calcCont {
     width: 80vw;
     height: 80vh;
