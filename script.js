@@ -3,7 +3,6 @@ const equationsBox = document.querySelector("#equationsBox");
 
 
 const numBtns = document.querySelectorAll(".num");
-
 numBtns.forEach((button) => {
     addEventListener('click', clickNum)
 })
