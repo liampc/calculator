@@ -23,19 +23,11 @@ body {
 }  
 
  
-#answerBox {
-    background-color: black;
-    height: 50%;
-    padding: 10px 10px 0px 10px;
-    color: white;
-    
-}
-    
 
 
-#equationsBox {
+#displayBox {
     background-color: black;
-    height: 50%;
+    height: 100%;
     padding: 0px 10px 0px 10px;
     color: #b7b7b7;
     
@@ -60,11 +52,11 @@ button {
     color: #585757;
 }
 
-.top{
+.displayBtns{
     background:#18b0b0;
     grid-column: span 2;
 }
 
-.operations {
+.operatorsBtns {
     background: #de7119;
 }
