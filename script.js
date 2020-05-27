@@ -25,7 +25,11 @@ btns.addEventListener('click', e => {
        }
 
        if (operation === 'decimal'){
-        console.log('its a decimal')
+        if (display.textContent.includes(".")){
+            return;
+        }else {
+            display.textContent = displayValue + ".";
+        }
        }
 
        if (operation === 'calculate'){
