@@ -33,12 +33,17 @@ btns.addEventListener('click', e => {
        }
 
        if (operation === 'clear'){
-        console.log('its clear')
+            display.textContent = 0;
        }
 
        if (operation === 'delete'){
-        console.log('its backspace')
-       }
+           if (displayValue.length > 1) {
+               display.textContent = displayValue.slice(0,-1);
+           } else {
+               display.textContent = "0";
+           }
+
+        }
        
     }
 
