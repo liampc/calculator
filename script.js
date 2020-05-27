@@ -10,7 +10,11 @@ btns.addEventListener('click', e => {
        const displayValue = display.textContent;
 
        if (!operation){ // for number btns
-          console.log('its a number')
+        if (displayValue === "0"){
+            display.textContent = btnName;
+        } else {
+            display.textContent = displayValue + btnName;
+        }
        }
 
        if ( operation === 'multiply' ||
